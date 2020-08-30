@@ -1,0 +1,1 @@
+# isbn-Modeling-and-simulation-in-Scilab-Scicos-978-0-387-27802-5
