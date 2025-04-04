@@ -40,6 +40,6 @@ z4=z;
 curve4 = param3d(x4,y4,z4, 280, 40,"X@Y@Z",[4,4])
 curve4.mark_mode = "on";
 curve4.mark_style = 10;
-curve4.mark_foreground = color(0,100,0);//green
+curve4.mark_foreground = color(0,100,0);//clear green
 
 
