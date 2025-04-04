@@ -43,4 +43,4 @@ curve4.mark_mode = "on";
 curve4.mark_style = 10;
 curve4.mark_foreground = color(0,intensity,0);//clear green
 
-
+//TODO dots are colored, do it with lines
