@@ -1,3 +1,4 @@
+intensity=100;
 //Sun at zenit = vertical position
 t = 0:0.1:2*%pi;
 r = (max(t)-t)/10;
@@ -29,7 +30,7 @@ z3=z;
 curve3 = param3d(x3,y3,z3)
 curve3.mark_mode = "on";
 curve3.mark_style = 10;
-curve3.mark_foreground = color(100,0,0);
+curve3.mark_foreground = color(intensity,0,0);
 
 
 
@@ -40,6 +41,6 @@ z4=z;
 curve4 = param3d(x4,y4,z4, 280, 40,"X@Y@Z",[4,4])
 curve4.mark_mode = "on";
 curve4.mark_style = 10;
-curve4.mark_foreground = color(0,100,0);//clear green
+curve4.mark_foreground = color(0,intensity,0);//clear green
 
 
